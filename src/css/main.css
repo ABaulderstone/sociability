@@ -8,7 +8,7 @@ a {
 }
 
 header {
-  background: #fff;
+  background-color: #F9F8F7;
   color: #6D2893;
 }
 header a {
@@ -144,6 +144,22 @@ ul.is-active {
 }
 .landing-page-hero-images .landing-page-hero-quote .orange-text {
   color: #f79525;
+}
+
+footer {
+  background-color: #F9F8F7;
+}
+footer .icons {
+  display: inline-block;
+}
+footer .icons ul {
+  text-align: center;
+}
+footer .icons li {
+  display: inline-block;
+}
+footer .icons img {
+  height: 45px;
 }
 
 /*# sourceMappingURL=main.css.map */
