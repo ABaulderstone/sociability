@@ -1,25 +1,29 @@
 body {
   font-family: "Arial";
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 header {
+<<<<<<< HEAD
   background-color: #F9F8F7;
   color: #6D2893;
 }
 header a {
   color: inherit;
 }
+=======
+  background: #fff;
+  color: #6d2893; }
+  header a {
+    color: inherit; }
+>>>>>>> 73886dcba96009043df7ac37ae6901587bf06dbf
 
 h1 {
   font-weight: bold;
   font-size: 1.5em;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
 
 button {
   position: absolute;
@@ -30,69 +34,54 @@ button {
   border-radius: 5px;
   font-size: 1em;
   background: transparent;
-  color: #6D2893;
-  display: none;
-}
-button:focus, button:hover {
-  background: #fff;
-  color: #000;
-}
+  color: #6d2893;
+  display: none; }
+  button:focus, button:hover {
+    background: #fff;
+    color: #000; }
 
 nav {
-  padding: 1em 1em 0;
-}
-nav img {
-  height: 35px;
-  padding-top: 20px;
-}
-nav li {
-  margin-bottom: 1em;
-}
-nav a {
-  display: inline-block;
-}
+  padding: 1em 1em 0; }
+  nav img {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 30px; }
+  nav li {
+    margin-bottom: 1em; }
+  nav a {
+    display: inline-block; }
 
 .js ul {
-  display: none;
-}
+  display: none; }
 
 .js button {
   display: block;
-  padding-top: 35px;
-}
+  padding-top: 35px; }
 
 ul.is-active {
-  display: block;
-}
+  display: block; }
 
 @media (min-width: 700px) {
   .js ul {
     display: inline-block;
-    float: right;
-  }
-  .js ul a {
-    font-size: 2em;
-  }
+    float: right; }
+    .js ul a {
+      font-size: 2em; }
 
   .js button {
-    display: none;
-  }
+    display: none; }
 
   button {
-    display: none;
-  }
+    display: none; }
 
   nav {
-    padding-left: 0;
-  }
-  nav li {
-    display: inline-block;
-    margin-right: 1em;
-  }
-}
+    padding-left: 0; }
+    nav li {
+      display: inline-block;
+      margin-right: 1em; } }
 .landing-page-hero-images {
   background-color: #753990;
-  height: 100vh;
+  height: 88vh;
   width: 100%;
   /*
   Set up 3 rows - top to be height of header
@@ -103,48 +92,43 @@ ul.is-active {
   */
   display: grid;
   grid-template-columns: 10% 5% 40% 5% 40%;
-  grid-template-rows: 30% 10% 15% 45%;
-}
-.landing-page-hero-images .landing-page-hero-image-australia {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 5;
-}
-.landing-page-hero-images .landing-page-hero-image-australia .image-australia {
-  height: 90%;
-}
-.landing-page-hero-images .landing-page-hero-image-dancing {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 5;
-}
-.landing-page-hero-images .landing-page-hero-image-dancing .image-dancing {
-  width: 90%;
-}
-.landing-page-hero-images .landing-page-hero-image-logo {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-.landing-page-hero-images .landing-page-hero-image-logo .image-logo {
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.landing-page-hero-images .landing-page-hero-quote {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  text-align: center;
-}
-.landing-page-hero-images .landing-page-hero-quote .orange-text {
-  color: #f79525;
-}
+  grid-template-rows: 30% 10% 15% 45%; }
+  .landing-page-hero-images .landing-page-hero-image-australia {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5; }
+    .landing-page-hero-images .landing-page-hero-image-australia .image-australia {
+      height: 90%; }
+  .landing-page-hero-images .landing-page-hero-image-dancing {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5; }
+    .landing-page-hero-images .landing-page-hero-image-dancing .image-dancing {
+      width: 90%; }
+  .landing-page-hero-images .landing-page-hero-image-logo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+    .landing-page-hero-images .landing-page-hero-image-logo .image-logo {
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  .landing-page-hero-images .landing-page-hero-quote {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+    line-height: 0.5; }
+    .landing-page-hero-images .landing-page-hero-quote p {
+      color: white;
+      letter-spacing: 2px; }
+    .landing-page-hero-images .landing-page-hero-quote .orange-text {
+      color: #f79525; }
 
 footer {
   background-color: #F9F8F7;
