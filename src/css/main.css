@@ -1,5 +1,7 @@
 body {
   font-family: "Arial";
+  font-size: 1em;
+  max-width: 80%;
 }
 
 a {
@@ -7,13 +9,8 @@ a {
 }
 
 header {
-  /* Make absolute, so it doesn't effect hero image */
-  position: absolute;
-  width: 100%;
-  /* End */
-  background: #015289;
-  padding: 1em;
-  color: #fff;
+  background: #fff;
+  color: #6D2893;
 }
 header a {
   color: inherit;
@@ -34,7 +31,7 @@ button {
   border-radius: 5px;
   font-size: 1em;
   background: transparent;
-  color: #fff;
+  color: #6D2893;
   display: none;
 }
 button:focus,
@@ -44,14 +41,17 @@ button:hover {
 }
 
 nav {
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
   padding: 1em 1em 0;
+}
+nav img {
+  height: 35px;
+  padding-top: 20px;
 }
 nav li {
   margin-bottom: 1em;
 }
 nav a {
-  display: block;
+  display: inline-block;
 }
 
 .js ul {
@@ -60,6 +60,7 @@ nav a {
 
 .js button {
   display: block;
+  padding-top: 35px;
 }
 
 ul.is-active {
@@ -68,7 +69,11 @@ ul.is-active {
 
 @media (min-width: 700px) {
   .js ul {
-    display: block;
+    display: inline-block;
+    float: right;
+  }
+  .js ul a {
+    font-size: 2em;
   }
 
   .js button {
