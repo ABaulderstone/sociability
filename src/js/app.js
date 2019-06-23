@@ -4,8 +4,6 @@ const fullScreen = window.matchMedia("(max-width: 700px)")
 const toggle = document.querySelector("#toggle");
 const menu = document.querySelector("#menu");
 const menuItems = document.querySelectorAll('#menu li a');
-menu.classList.add("js");
-toggle.classList.add("js");
 
 
 toggle.addEventListener('click', function(){

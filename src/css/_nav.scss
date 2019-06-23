@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial';
     font-size: 1em;
+    max-width: 80%;
   }
   
   a {
@@ -8,9 +9,8 @@ body {
   }
   
   header {
-    background: #015289;
-    padding: 1em;
-    color: #fff;
+    background: #fff;
+    color:#6D2893;
     
     a {
       color: inherit;
@@ -32,7 +32,7 @@ body {
     border-radius: 5px;
     font-size: 1em;
     background: transparent;
-    color: #fff;
+    color: #6D2893;
     display: none;
     
     &:focus,
@@ -43,7 +43,10 @@ body {
   }
   
   nav {
-    border-top: 1px solid transparentize(#fff, 0.4);
+      img {
+          height: 35px;
+          padding-top: 20px
+      }
     padding: 1em 1em 0;
     
     li {
@@ -51,7 +54,7 @@ body {
     }
     
     a {
-      display: block;
+      display: inline-block;
     }
   }
   
@@ -61,6 +64,7 @@ body {
   
   .js button {
     display: block;
+    padding-top: 35px;
   }
   
   ul.is-active {
@@ -69,7 +73,12 @@ body {
   
   @media (min-width: 700px) {
     .js ul {
-      display: block;
+      display: inline-block;
+      float: right;
+
+      a {
+          font-size: 2em;
+      }
     }
     
     .js button {
