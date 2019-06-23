@@ -7,6 +7,10 @@ a {
 }
 
 header {
+  /* Make absolute, so it doesn't effect hero image */
+  position: absolute;
+  width: 100%;
+  /* End */
   background: #015289;
   padding: 1em;
   color: #fff;
@@ -33,7 +37,8 @@ button {
   color: #fff;
   display: none;
 }
-button:focus, button:hover {
+button:focus,
+button:hover {
   background: #fff;
   color: #000;
 }
