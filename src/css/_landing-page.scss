@@ -1,7 +1,7 @@
 .landing-page-hero-images {
   // 100vh - HEADER
   background-color: #753990;
-  height: 100vh;
+  height: 88vh;
   width: 100%;
   /*
   Set up 3 rows - top to be height of header
@@ -56,6 +56,12 @@
     grid-row-start: 4;
     grid-row-end: 5;
     text-align: center;
+    line-height: 0.5;
+
+    p {
+      color: white;
+      letter-spacing: 2px;
+    }
 
     .orange-text {
       // color: orange;
