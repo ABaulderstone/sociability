@@ -6,10 +6,12 @@ a {
   text-decoration: none; }
 
 header {
-  background: #fff;
-  color: #6d2893; }
-  header a {
-    color: inherit; }
+  background-color: #F9F8F7;
+  color: #6D2893;
+}
+header a {
+  color: inherit;
+}
 
 h1 {
   font-weight: bold;
@@ -172,5 +174,22 @@ ul.is-active {
 
 html {
   scroll-behavior: smooth; }
+
+footer {
+  background-color: #F9F8F7;
+}
+footer .icons {
+  display: inline-block;
+}
+footer .icons ul {
+  text-align: center;
+}
+footer .icons li {
+  display: inline-block;
+}
+footer .icons img {
+  height: 45px;
+}
+
 
 /*# sourceMappingURL=main.css.map */
