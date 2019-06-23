@@ -121,4 +121,56 @@ ul.is-active {
     .landing-page-hero-images .landing-page-hero-quote .orange-text {
       color: #f79525; }
 
+.about-page .about-page-hero-image {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 7% 13% 80%; }
+  .about-page .about-page-hero-image .about-page-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    color: #75398f; }
+  .about-page .about-page-hero-image .about-page-image-people {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+    .about-page .about-page-hero-image .about-page-image-people .image-people {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+.about-page .about-page-information {
+  padding-left: 40px;
+  margin-top: -40px; }
+  .about-page .about-page-information .about-page-information-title {
+    font-size: 36px; }
+
+.research-page {
+  height: 100vh;
+  padding-left: 40px; }
+  .research-page .research-page-title {
+    padding-top: 10px;
+    color: #f79525;
+    font-size: 54px; }
+  .research-page .text-italics {
+    font-style: italic; }
+  .research-page .research-page-subheading {
+    font-size: 36px; }
+
+.get-involved-page .get-involved-page-title {
+  padding-top: 10px;
+  color: #f79525;
+  font-size: 54px; }
+.get-involved-page .text-italics {
+  font-style: italic; }
+.get-involved-page .get-involved-page-subheading {
+  font-size: 36px; }
+
+html {
+  scroll-behavior: smooth; }
+
 /*# sourceMappingURL=main.css.map */
