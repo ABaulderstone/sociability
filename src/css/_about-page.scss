@@ -1,0 +1,40 @@
+.about-page {
+  .about-page-hero-image {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 7% 13% 80%;
+
+    .about-page-title {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      text-align: center;
+      color: #75398f;
+    }
+
+    .about-page-image-people {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+
+      .image-people {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  .about-page-information {
+    padding-left: 40px;
+    margin-top: -40px;
+
+    .about-page-information-title {
+      font-size: 36px;
+    }
+  }
+}
